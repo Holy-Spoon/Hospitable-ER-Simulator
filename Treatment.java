@@ -1,13 +1,3 @@
-// This program is copyright VUW.
-// You are granted permission to use it to construct your answer to a COMP103 assignment.
-// You may not distribute it in any other way without permission.
-
-/* Code for COMP103 - 2025T2, Assignment 3
- * Name:
- * Username:
- * ID:
- */
-
 /**
  * A Treatment is an object with two fields:
  *   - the department the patient must be treated in, and
@@ -47,3 +37,4 @@ public class Treatment {
      */
     public String toString(){return department+"("+timeRemaining+")";}
 }
+
