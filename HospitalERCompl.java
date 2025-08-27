@@ -1,13 +1,3 @@
-// This program is copyright VUW.
-// You are granted permission to use it to construct your answer to a COMP103 assignment.
-// You may not distribute it in any other way without permission.
-
-/* Code for COMP103 - 2025T2, Assignment 3
- * Name: Matthew McGowan
- * Username:mcgowamatt1
- * ID:300672872
- */
-
 import ecs100.*;
 import java.util.*;
 import java.io.*;
@@ -17,16 +7,7 @@ import java.io.*;
  * 
  * The hospital has a collection of Departments, including the ER department, each of which has
  *  and a treatment room.
- * 
- * When patients arrive at the hospital, they are immediately assessed by the
- *  triage team who determine the priority of the patient and (unrealistically) a sequence of treatments 
- *  that the patient will need.
- *
- * The simulation should move patients through the departments for each of the required treatments,
- * finally discharging patients when they have completed their final treatment.
- *
- *  READ THE ASSIGNMENT PAGE!
- */
+*/
 
 public class HospitalERCompl {
     private Map<String, Department> departments = new HashMap<String, Department>();
