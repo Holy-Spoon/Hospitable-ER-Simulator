@@ -1,13 +1,3 @@
-// This program is copyright VUW.
-// You are granted permission to use it to construct your answer to a COMP103 assignment.
-// You may not distribute it in any other way without permission.
-
-/* Code for COMP103 - 2025T2, Assignment 3
- * Name:
- * Username:
- * ID:
- */
-
 import java.util.*;
 
 /**
@@ -176,3 +166,4 @@ public class PatientGenerator {
             "de Saxe","de Sylva","van der Meer", "Woods","Yates","Zhang","van Zijl"
         };
 }
+
