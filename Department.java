@@ -1,12 +1,3 @@
-// This program is copyright VUW.
-// You are granted permission to use it to construct your answer to a COMP103 assignment.
-// You may not distribute it in any other way without permission.
-
-/* Code for COMP103 - 2025T2, Assignment 3
- * Name:
- * Username:
- * ID:
- */
 
 import ecs100.*;
 import java.util.*;
@@ -75,10 +66,7 @@ public class Department {
      * Prioritizes critical (Priority 1) patients
      */
     public void admitWhileSpace() {
-        // First admit any priority 1 patients
         admitPriorityPatients();
-        
-        // Then admit others if space remains
         admitRegularPatients();
     }
 
@@ -107,8 +95,8 @@ public class Department {
 
     /**
      * Forces treatment of a priority 1 patient who waited too long
-     * @param urgentPatient The patient to prioritize
-     * @return true if patient was admitted
+     * urgentPatient The patient to prioritize
+     * return true if patient was admitted
      */
     public boolean forcePriority1Treatment(Patient urgentPatient) {
         if (treatmentRoom.size() < maxPatients && waitingRoom.remove(urgentPatient)) {
@@ -122,7 +110,7 @@ public class Department {
     
     /**
      * Collects patients who finished their current treatment
-     * @return List of completed patients
+     * return List of completed patients
      */
     public List<Patient> collectFinished() {
         List<Patient> finished = new ArrayList<>();
